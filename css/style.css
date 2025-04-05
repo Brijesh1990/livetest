@@ -112,7 +112,7 @@ display: none !important;
 background: lightgray !important;
 transition: 2s ease all;
 }
-@media only  screen  and (max-width:580px)
+@media only  screen  and  (min-width:320px) and (max-width:580px)
 
 {
 body 
@@ -122,6 +122,19 @@ padding: 0;
 background-color:var(--bg-red);
 box-sizing: border-box !important;
 overflow-x: hidden !important;   
+}
+  
+#loader
+{
+width: 30%;
+height: auto;    
+position: absolute;
+left: 35%;
+top: 20%;
+background: url('../images/loader.png') no-repeat;
+background-size: cover;
+background-position: center;
+
 }
 .dashboard
 {
